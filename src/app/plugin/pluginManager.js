@@ -166,7 +166,6 @@ module.exports = class PluginManager {
       } else {
         response(data.key, data.type, data.id, `Endpoint ${data.key}/${data.type} not present`, null)
       }
-      
     }, false)
   }
   unregister (desc) {
